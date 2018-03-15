@@ -15,5 +15,6 @@ stdenv.mkDerivation rec {
     vim
     tile38
     pants
+    openjdk8
   ];
 }
