@@ -1,0 +1,5 @@
+#/usr/bin/env bash
+
+# Intended to use pants configured via nix
+
+pants "$@"

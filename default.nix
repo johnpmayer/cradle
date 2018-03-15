@@ -13,6 +13,7 @@ stdenv.mkDerivation rec {
   buildInputs = [
     git
     vim
-    tile38 # this isn't really "build"
+    tile38
+    pants
   ];
 }
