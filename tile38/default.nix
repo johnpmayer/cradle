@@ -1,5 +1,5 @@
 
-with import <nixpkgs> {};
+{ stdenv, fetchurl }:
 
 stdenv.mkDerivation rec {
   name = "tile38";
