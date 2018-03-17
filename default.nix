@@ -16,5 +16,6 @@ stdenv.mkDerivation rec {
     tile38
     pants
     openjdk8
+    jetbrains.idea-community
   ];
 }

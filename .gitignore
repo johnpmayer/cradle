@@ -1,5 +1,8 @@
 
-.pants.d
+.pants.d/
 .pants.workdir.file_lock
-.pids
-.cache
+.pids/
+.cache/
+.idea/
+dist/
+data/

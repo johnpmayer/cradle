@@ -1,2 +1,2 @@
 # cradle
-Economic Simulation set during the Industrial Revolution
+Economic Simulation Game set during the Industrial Revolution
