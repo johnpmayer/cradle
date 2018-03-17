@@ -1,7 +1,6 @@
 
 package cradle.tile38.server
 
-
 import java.nio.charset.StandardCharsets
 
 import com.redis.RedisClient
@@ -11,7 +10,7 @@ class ProcessTile38ServerTests extends FlatSpec with Matchers {
 
   "ProcessTile38Server" should "Be accessible from redis client when launched" in {
 
-    // TODO: use some sort of autocloseable sub-process
+    // TODO: implement Closeable for ProcessTile38Server
     val server = new ProcessTile38Server
 
     try {
